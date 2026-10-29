@@ -1,2 +1,25 @@
+# Operating System files
 .DS_Store
-*pycache*
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# VS Code directory (optional)
+# Keep tasks.json / settings.json if sharing workspace configurations across machines,
+# or ignore .vscode/ if workspace settings are strictly personal/machine-specific.
+# .vscode/
